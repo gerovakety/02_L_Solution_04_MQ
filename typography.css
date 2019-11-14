@@ -1,0 +1,44 @@
+html {
+    font-size: var(--font-text-article, 18px);
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+}
+
+body, form, input, textarea, select, options {
+    font: inherit;
+}
+
+article {
+    min-width: var(--width-article-responsive, 1600px);
+    padding: 3em;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;}
+
+ul {
+    margin: 20px 0 20px 40px;
+}
+
+@media (min-width: 700px) {
+    {
+        font-size: 16px;
+    }                                                                                               
+
+}
+
+@media (min-width: 500px) {
+   {
+       font-size: 14px;
+   }                                                                                               
+
+}
